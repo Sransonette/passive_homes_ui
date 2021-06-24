@@ -5,7 +5,15 @@ class TempUp extends Component {
 
 
 
+    render() {
+        return (
+            <div className={"tempUp"}>
+                <button>TempUp test</button>
+            </div>
+        )
+    }
+
 
 }
 
-Export default TempUp
+export default TempUp; 

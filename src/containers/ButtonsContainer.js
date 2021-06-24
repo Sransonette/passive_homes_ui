@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Temp from '../components/Temperature.js'
+import TempDown from '../components/tempDown'
+import TempUp from '../components/tempUp'
 
 class ButtonsContainer extends Component { 
 
@@ -7,6 +9,8 @@ class ButtonsContainer extends Component {
         return( 
             <div>
             <Temp/>
+            <TempDown/>
+            <TempUp/>
             </div>
         )
     }
