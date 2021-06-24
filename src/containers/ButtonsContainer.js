@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import Test from '../components/test.js'
+import Temp from '../components/Temperature.js'
 
 class ButtonsContainer extends Component { 
 
     render() {
         return( 
             <div>
-            <Test/>
+            <Temp/>
             </div>
         )
     }
