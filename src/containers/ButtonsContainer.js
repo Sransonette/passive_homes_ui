@@ -8,9 +8,9 @@ class ButtonsContainer extends Component {
     render() {
         return( 
             <div>
+            <TempUp/>
             <Temp/>
             <TempDown/>
-            <TempUp/>
             </div>
         )
     }

@@ -11,7 +11,8 @@ class Temp extends Component{
     render() {
         return (
             <div className={"currentTemp"}>
-                Current Temperature
+                Current Temperature<br/>
+                {this.state.temp}
             </div>
         )
     }
