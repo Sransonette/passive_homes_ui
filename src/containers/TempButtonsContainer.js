@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Temp from '../components/Temperature.js'
 
 
-class ButtonsContainer extends Component { 
+class TempButtonsContainer extends Component { 
 
     render() {
         return( 
@@ -16,4 +16,4 @@ class ButtonsContainer extends Component {
 
 }
 
-export default ButtonsContainer
+export default TempButtonsContainer
