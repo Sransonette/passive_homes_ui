@@ -14,7 +14,7 @@ class TempUp extends Component {
     render() {
         return (
             <div className={"tempUp"}>
-                <button onClick={this.onClick}>TempUp test</button>
+                <button onClick={this.onClick}>TempUp</button>
             </div>
         )
     }

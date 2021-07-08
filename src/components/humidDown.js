@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class humidDown extends Component {
+class HumidDown extends Component {
     render() {
         return (
             <div>
-                
+                <button>Humidity Down</button>
             </div>
         );
     }
 }
 
-export default humidDown;
+export default HumidDown;
