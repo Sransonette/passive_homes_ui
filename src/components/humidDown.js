@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class HumidDown extends Component {
     render() {
         return (
-            <div>
+            <div className={"humidDown"}>
                 <button>Humidity Down</button>
             </div>
         );

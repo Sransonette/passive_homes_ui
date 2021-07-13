@@ -4,7 +4,7 @@ class HumidUp extends Component {
 
     render() {
         return (
-            <div>
+            <div className={"humidUp"}>
                 <button>Humidity Up</button>
             </div>
         );

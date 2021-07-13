@@ -4,7 +4,7 @@ class TempDown extends Component {
 
     render() {
         return (
-            <div className={"tempUp"}>
+            <div className={"tempDown"}>
                 <button>TempDown</button>
             </div>
         )

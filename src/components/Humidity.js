@@ -8,8 +8,6 @@ class Humidity extends Component {
         hum: "50"
     }
 
-
-
     render() {
         return (
             <div className={"currentHumid"}>
@@ -21,8 +19,6 @@ class Humidity extends Component {
         )
     }
    
-
-
 }
 
 export default Humidity;
