@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class TempDown extends Component {
+const TempDown = (props) => {
 
-    render() {
+
+
         return (
             <div className={"tempDown"}>
                 <button>TempDown</button>
             </div>
         )
-    }
-
+    
 
 
 }

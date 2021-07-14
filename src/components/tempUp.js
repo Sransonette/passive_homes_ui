@@ -1,23 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class TempUp extends Component {
-
-    onClick = () => {
-        let tempUp = this.props === + 1
-        this.setState({
-            temp: tempUp
-        })
-
-    }
+const TempUp = (props) => {
 
 
-    render() {
+
         return (
             <div className={"tempUp"}>
-                <button onClick={this.onClick}>TempUp</button>
+                <button>TempUp</button>
             </div>
         )
-    }
+    
 
 
 }
